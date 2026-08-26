@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Android-lightgrey.svg)
 ![Tech](https://img.shields.io/badge/built%20with-Electron%20%7C%20Capacitor-brightgreen.svg)
 
-The Recetario is a cross-platform digital heirloom cookbook that combines rustic journal aesthetics with macro and nutrition tracking. Built with Electron for desktop and Capacitor for mobile, it presents recipes inside an interactive 3D book spread complete with custom ingredient databases, bookmark tab filters, and full export/import capabilities across platforms.
+The Recetario is a cross-platform digital heirloom cookbook that combines rustic journal aesthetics with macro and nutrition tracking. Built with Electron for desktop and Capacitor for android, it presents recipes inside an interactive 3D book spread complete with custom ingredient databases, bookmark tab filters, and full export/import capabilities across platforms.
 
 ---
 
