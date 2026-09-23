@@ -8,16 +8,20 @@ The Recetario is a cross-platform digital heirloom cookbook that combines rustic
 
 ---
 
-## Key Features
+## ✨ Features
 
-* **Interactive 3D Book Experience:** Flip through a digital notebook complete with realistic page-turning animations, polaroid-style dish cards, margin bookmark ribbons, and handwritten note styling.
-* **Granular Macro Tracking:** Automatically calculates total calories, protein, carbohydrates, and fat based on ingredient weights (g). Includes raw vs. cooked ingredient variants for accurate nutritional totals.
-* **Custom Ingredient Database:** Search through an extensive pre-built ingredient library or add custom ingredients with macros per 100g, persisted locally on device storage.
-* **Smart Categorization & Search:** Filter by meal type (*Breakfast, Lunch, Dinner, Dessert, Snack*), custom tagged categories with outline icons, or mark dishes as favorites.
-* **Seamless Export & Import:**
-  * **JSON Backup:** Save and restore complete recipe databases.
-  * **PDF Export & Ingestion:** Generates single/multi-page recipe PDFs with embedded metadata (`RecetarioData<<<...>>>`), allowing full database restoration directly from exported PDF files via PDF.js.
-
+* **Interactive 3D Book Experience**: Flip through a digital notebook complete with realistic page-turning animations, polaroid-style dish cards, margin bookmark ribbons, and handwritten note styling.
+* **Granular Macro Tracking**: Automatically calculates total calories, protein, carbohydrates, and fat based on ingredient weights (g). Includes raw vs. cooked ingredient variants for accurate nutritional totals.
+* **Custom Ingredient Database**: Search through an extensive pre-built ingredient library (100+ entries) or add custom ingredients with macros per 100g, persisted locally on device storage.
+* **Smart Categorization & Search**: Filter by meal type (Breakfast, Lunch, Dinner, Dessert, Snack), custom tagged categories with outline icons, or mark dishes as favorites.
+* **Seamless Export & Import**:
+   * **JSON Backup**: Save and restore complete recipe databases.
+   * **PDF Export & Ingestion**: Generates single/multi-page recipe PDFs with embedded metadata (`RecetarioData<<<...>>>`), allowing full database restoration directly from exported PDF files via PDF.js.
+* **Built-In Photo Editor**: Upload a dish photo and reposition/zoom it with a drag-and-pinch crop tool before saving. Large images are automatically downsampled first so cropping stays smooth even on big phone camera shots.
+* **Living Dish Commentary**: Every recipe gets a deterministic, macro-aware note and badge (e.g. *"High Protein! Muscle Fuel 💪"*, *"Bulk Phase"*, *"Lean Cut"*) generated entirely by local logic — a hash of the recipe plus a curated bank of lines, no AI API involved.
+* **Personalized Welcome Flow**: First launch asks for your name; every return visit greets you by name with a time-of-day message and your running recipe count, then cross-fades into the notebook.
+* **Polished Micro-Interactions**: Toast confirmations for quick feedback, and "are you sure?" dialogs before destructive actions like deleting a recipe.
+* **100% Local & Offline**: No sign-up, no backend, no API keys, and zero network calls — every recipe, photo, and ingredient lives in the browser's `localStorage`. Fonts (Caveat, Libre Caslon Text, Work Sans) and Material Symbols icons are self-hosted rather than pulled from a CDN. Because nothing ever touches the network, it drops straight into **Electron** (`.exe`/`.app`) or **Capacitor** (`.apk`) with no code changes and no network permissions required
 ---
 
 ## Downloads & Releases
