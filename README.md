@@ -31,7 +31,7 @@ Check out the [Releases Page](https://github.com/YOUR_USERNAME/YOUR_REPO/release
 | Version | File | Target Platform | Description |
 | :--- | :--- | :--- | :--- |
 | `v1.0` | `The-Recetario-v1.0-Setup.exe` | Windows PC | Desktop standalone application built with Electron. |
-| `v1.0` | `The-Recetario-v1.0.apk` | Android | Mobile standalone package built with Capacitor. |
+| `v1.0` | `app-release.apk` | Android | Mobile standalone package built with Capacitor. |
 
 ---
 
